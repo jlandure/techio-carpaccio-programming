@@ -8,7 +8,7 @@ plan:
     statement: src/1-hello/hello.md
   - id: DisplayUP
     title: Step 2 - Display Unit Prize
-    statement: src/2-displayUP/DisplayUnitPrize.md
+    statement: src/2-displayUP/displayUnitPrize.md
 
 projects:
   node:
