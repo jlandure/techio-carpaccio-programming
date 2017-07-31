@@ -1,0 +1,17 @@
+{
+  "name": "techio-carpaccio-programming-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jlandure",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^20.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  }
+}

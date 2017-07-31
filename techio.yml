@@ -1,4 +1,4 @@
-title: Carpaccio programming
+title: Carpaccio programming JS
 plan:
   - id: Intro
     title: Introduction
@@ -10,4 +10,4 @@ plan:
 projects:
   node:
     root: /1-hello
-    runner: node:8
+    runner: techio/node-npm-runner:1.1.0-node-7.4
