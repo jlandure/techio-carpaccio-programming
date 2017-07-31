@@ -9,5 +9,5 @@ plan:
 
 projects:
   node:
-    root: /
+    root: /1-hello
     runner: node:8
