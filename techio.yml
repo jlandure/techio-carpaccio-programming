@@ -5,10 +5,10 @@ plan:
     statement: intro.md
   - id: Hello
     title: Step 1 - HelloWorld program
-    statement: 1-hello/hello.md
+    statement: src/1-hello/hello.md
   - id: DisplayUP
     title: Step 2 - Display Unit Prize
-    statement: 2-displayUP/DisplayUnitPrize.md
+    statement: src/2-displayUP/DisplayUnitPrize.md
 
 projects:
   node:
