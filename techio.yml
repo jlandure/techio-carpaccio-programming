@@ -1,5 +1,13 @@
-title: My first playground
+title: Carpaccio programming
 plan:
-  - title: My first lesson
-    statement: welcome.md
+  - id: Intro
+    title: Introduction
+    statement: intro.md
+  - id: Hello
+    title: HelloWorld program
+    statement: 1-hello/hello.md
 
+projects:
+  node:
+    root: /
+    runner: node:8
