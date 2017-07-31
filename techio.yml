@@ -4,10 +4,13 @@ plan:
     title: Introduction
     statement: intro.md
   - id: Hello
-    title: HelloWorld program
+    title: Step 1 - HelloWorld program
     statement: 1-hello/hello.md
+  - id: DisplayUP
+    title: Step 2 - Display Unit Prize
+    statement: 2-displayUP/DisplayUnitPrize.md
 
 projects:
   node:
-    root: /1-hello
+    root: /src
     runner: techio/node-npm-runner:1.1.0-node-7.4
