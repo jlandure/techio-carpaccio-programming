@@ -13,8 +13,8 @@ plan:
     title: Step 1 - HelloWorld program
     statement: src/1-hello/hello.md
   - id: DisplayUP
-    title: Step 2 - Display Unit Prize
-    statement: src/2-displayUP/displayUnitPrize.md
+    title: Step 2 - Display Unit Price
+    statement: src/2-displayUP/displayUnitPrice.md
 
 projects:
   node:
