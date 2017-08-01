@@ -1,3 +1,5 @@
+We want to build our ecommerce website to sell our product.
+Our model is a B2B and B2C company so we want to sell to big companies and also simple customers.
 Be simple: in our platform, only one item can be bought at the time.
 
 The product must accept 3 inputs from the user:

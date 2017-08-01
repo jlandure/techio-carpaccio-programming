@@ -18,6 +18,9 @@ plan:
   - id: includeTax
     title: Step 3 - Include Tax for CA
     statement: src/3-includeTax/includeTax.md
+  - id: includeNbItems
+    title: Step 4 - Include NbItems and Tax for CA
+    statement: src/4-includeNbItems/includeNbItems.md
 
 projects:
   node:
