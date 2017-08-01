@@ -15,6 +15,9 @@ plan:
   - id: DisplayUP
     title: Step 2 - Display Unit Price
     statement: src/2-displayUP/displayUnitPrice.md
+  - id: includeTax
+    title: Step 3 - Include Tax for CA
+    statement: src/3-includeTax/includeTax.md
 
 projects:
   node:
