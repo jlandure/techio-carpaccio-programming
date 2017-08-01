@@ -3,6 +3,12 @@ plan:
   - id: Intro
     title: Introduction
     statement: intro.md
+  - id: Product
+    title: Product
+    statement: product.md
+  - id: Roadmap
+    title: Roadmap
+    statement: roadmap.md
   - id: Hello
     title: Step 1 - HelloWorld program
     statement: src/1-hello/hello.md

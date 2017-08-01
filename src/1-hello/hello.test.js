@@ -1,3 +1,4 @@
+const program = require("./hello.js");
 let outputData;
 beforeEach(() => {
   outputData = "";
@@ -5,7 +6,7 @@ beforeEach(() => {
 const storeLog = inputs => (outputData += inputs);
 test("console log Hello World", () => {
   console["log"] = jest.fn(storeLog);
-  require("./hello.js");
+  program()
   expect(console.log).toBeCalled();
   expect(outputData).toBe("Hello World");
 });
