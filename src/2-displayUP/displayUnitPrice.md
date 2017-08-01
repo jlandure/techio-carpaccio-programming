@@ -1,5 +1,5 @@
 # Step 2
 
-Now, we want to display the unit prize for one article. Let's begin with the
+Now, we want to display the unit price for the article in the parameters of the function.
 
-@[Are you able to display the unit prize?]({"stubs": ["/2-displayUP/displayUnitPrize.js"], "command": "npm test 2-displayUP"})
+@[Are you able to display the unit price?]({"stubs": ["/2-displayUP/displayUnitPrice.js"], "command": "npm test 2-displayUP"})
