@@ -1,4 +1,4 @@
-# Step 3
+# Step 4
 
 Now, we want to display the price if the customer take more than one item.
 We also want to display the price all taxes included for the state "CA"

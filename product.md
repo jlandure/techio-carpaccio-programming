@@ -1,5 +1,7 @@
 We want to build our ecommerce website to sell our product.
+
 Our model is a B2B and B2C company so we want to sell to big companies and also simple customers.
+
 Be simple: in our platform, only one item can be bought at the time.
 
 The product must accept 3 inputs from the user:
@@ -8,6 +10,7 @@ The product must accept 3 inputs from the user:
 - 2-letter state code
 
 The program have to output the total price.
+
 Give a discount base on the total price, add state tax based on the state and the discounted price.
 
 Here is the table of discount rate:
