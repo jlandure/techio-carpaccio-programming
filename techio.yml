@@ -21,6 +21,12 @@ plan:
   - id: includeNbItems
     title: Step 4 - Include NbItems and Tax for CA
     statement: src/4-includeNbItems/includeNbItems.md
+  - id: openTX
+    title: Step 5 - Open in Texas
+    statement: src/5-openTX/5-openTX.md
+  - id: includeDiscount
+    title: Step 6 - Include Discount for big client
+    statement: src/6-includeDiscount/includeDiscount.md
 
 projects:
   node:
