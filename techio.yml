@@ -27,6 +27,18 @@ plan:
   - id: includeDiscount
     title: Step 6 - Include Discount for big client
     statement: src/6-includeDiscount/includeDiscount.md
+  - id: includeUT
+    title: Step 7 - Include Utah
+    statement: src/7-includeUT/includeUT.md
+  - id: includeDiscount
+    title: Step 8 - Include Discount for small customers
+    statement: src/8-includeDiscount1k/includeDiscount1k.md
+  - id: allStates
+    title: Step 9 - Open in all the 5 states
+    statement: src/9-allStates/allStates.md
+  - id: allDiscounts
+    title: Step 10 - Include all the discounts
+    statement: src/10-allDiscounts/allDiscounts.md
 
 projects:
   node:

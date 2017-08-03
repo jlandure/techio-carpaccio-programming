@@ -1,4 +1,5 @@
 We want to build our ecommerce website to sell our product.
+We will build a retail calculator. It is a runnable application with three inputs and one output.
 
 Our model is a B2B and B2C company so we want to sell to big companies and also simple customers.
 
