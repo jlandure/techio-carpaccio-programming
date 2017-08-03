@@ -1,4 +1,4 @@
-const program = require("./includeDiscount.js");
+const program = require("./includeDiscount1k.js");
 let outputData;
 beforeEach(() => {
   outputData = "";
