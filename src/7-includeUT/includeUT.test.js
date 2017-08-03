@@ -21,13 +21,13 @@ const getTax = state => {
 const getDiscount = amount => {
   switch (true) {
     case amount >= 50000:
-      return 0.85;
-    //case (amount >=10000): return 0.90;
-    //case (amount >=7000): return 0.93;
-    //case (amount >=5000): return 0.95;
-    //case (amount >=1000): return 0.97;
+      return amount * 0.85;
+    //case (amount >=10000): return amount * 0.90;
+    //case (amount >=7000): return amount * 0.93;
+    //case (amount >=5000): return amount * 0.95;
+    //case (amount >=1000): return amount * 0.97;
     default:
-      return 1;
+      return amount;
   }
 };
 test("test1 in CA", () => {
