@@ -2,7 +2,7 @@
 
 To finish, let's implement all the discounts in our ecommerce website.
 
-@[Are you able to display the price?]({"stubs": ["/10-allDiscounts/allDiscounts.js"], "command": "npm test 10"})
+@[Are you able to display the price?]({"stubs": ["/10-allDiscounts/allDiscounts.js"], "command": "npm test 10-allDiscounts"})
 
 With this step, we have a fully ecommerce website available in 5 states and offering different kind of discount.
 
