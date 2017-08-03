@@ -8,21 +8,19 @@ With this step, we have a fully ecommerce website available in 5 states and offe
 
 **Congratulations**
 
-Now, we are able to understand the key-principle in agility: _iteration_.
-
 ### Why Elephant Carpaccio?
 
 It's very thin slices, each one still elephant-shaped. Together they form the whole elephant.
-![priorities](10-allDiscounts/elephant.png)
+![priorities](src/10-allDiscounts/elephant.png)
 
 ### Why split stories?
 Learn faster. Deliver more often. Happier stakeholders. More in-sync with other people & teams. Better prioritizations. Better product earlier. More business options. Less risk (less time “underwater”). Sense of velocity. Easier planning.
-![priorities](10-allDiscounts/stories.png)
+![priorities](src/10-allDiscounts/stories.png)
 
 ### Why Priorities?
 Here is the illustration for priorities on this value curve. 
 Our Target was 5 discounts, 5 states.
-![priorities](10-allDiscounts/priorities.png)
+![priorities](src/10-allDiscounts/priorities.png)
 
 ### Resources:
  - Special thanks to [Christophe Addinquy](https://www.linkedin.com/in/addinquy/) to bring back this _famous_ exercise!
