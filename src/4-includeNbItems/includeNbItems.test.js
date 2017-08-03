@@ -11,7 +11,7 @@ test("test1 in CA", () => {
   program(nbItems, price, "CA");
   expect(console.log).toBeCalled();
   const expectedPrice = nbItems * price * 1.15;
-  expect(outputData).toBe(expectedPrice.toString());
+  expect(Number(outputData)).toBe(expectedPrice);
 });
 test("test2 in CA", () => {
   console["log"] = jest.fn(storeLog);
@@ -20,7 +20,7 @@ test("test2 in CA", () => {
   program(nbItems, price, "CA");
   expect(console.log).toBeCalled();
   const expectedPrice = nbItems * price * 1.15;
-  expect(outputData).toBe(expectedPrice.toString());
+  expect(Number(outputData)).toBe(expectedPrice);
 });
 test("test3 in CA", () => {
   console["log"] = jest.fn(storeLog);
@@ -29,7 +29,7 @@ test("test3 in CA", () => {
   program(nbItems, 2543, "CA");
   expect(console.log).toBeCalled();
   const expectedPrice = nbItems * price * 1.15;
-  expect(outputData).toBe(expectedPrice.toString());
+  expect(Number(outputData)).toBe(expectedPrice);
 });
 test("test1 in UT", () => {
   console["log"] = jest.fn(storeLog);
@@ -38,7 +38,7 @@ test("test1 in UT", () => {
   program(nbItems, price, "UT");
   expect(console.log).toBeCalled();
   const expectedPrice = nbItems * price;
-  expect(outputData).toBe(expectedPrice.toString());
+  expect(Number(outputData)).toBe(expectedPrice);
 });
 test("test1 in TX", () => {
   console["log"] = jest.fn(storeLog);
@@ -47,5 +47,5 @@ test("test1 in TX", () => {
   program(nbItems, price, "TX");
   expect(console.log).toBeCalled();
   const expectedPrice = nbItems * price;
-  expect(outputData).toBe(expectedPrice.toString());
+  expect(Number(outputData)).toBe(expectedPrice);
 });
