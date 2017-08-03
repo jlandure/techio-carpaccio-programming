@@ -1,10 +1,14 @@
 {
-  "name": "techio-carpaccio-programming-hello",
+  "name": "techio-carpaccio-programming",
   "version": "1.0.0",
-  "description": "",
+  "description": "Techio Elephant Carpaccio Programming",
   "main": "hello.js",
   "scripts": {
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlandure/techio-carpaccio-programming"
   },
   "author": "jlandure",
   "license": "ISC",
