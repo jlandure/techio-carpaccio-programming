@@ -61,6 +61,16 @@ test("test3 in CA", () => {
   const expectedPrice = getDiscount(nbItems * price) * getTax(state);
   expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
 });
+test("test4 in CA", () => {
+  console["log"] = jest.fn(storeLog);
+  const nbItems = 1,
+    price = 15000,
+    state = "CA";
+  program(nbItems, price, state);
+  expect(console.log).toBeCalled();
+  const expectedPrice = getDiscount(nbItems * price) * getTax(state);
+  expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
+});
 test("test1 in UT", () => {
   console["log"] = jest.fn(storeLog);
   const nbItems = 6,
@@ -91,6 +101,16 @@ test("test3 in UT", () => {
   const expectedPrice = getDiscount(nbItems * price) * getTax(state);
   expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
 });
+test("test4 in UT", () => {
+  console["log"] = jest.fn(storeLog);
+  const nbItems = 4000,
+    price = 2,
+    state = "UT";
+  program(nbItems, price, state);
+  expect(console.log).toBeCalled();
+  const expectedPrice = getDiscount(nbItems * price) * getTax(state);
+  expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
+});
 test("test1 in TX", () => {
   console["log"] = jest.fn(storeLog);
   const nbItems = 14,
@@ -111,6 +131,16 @@ test("test2 in TX", () => {
   const expectedPrice = getDiscount(nbItems * price) * getTax(state);
   expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
 });
+test("test3 in TX", () => {
+  console["log"] = jest.fn(storeLog);
+  const nbItems = 1,
+    price = 5555,
+    state = "TX";
+  program(nbItems, price, state);
+  expect(console.log).toBeCalled();
+  const expectedPrice = getDiscount(nbItems * price) * getTax(state);
+  expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
+});
 test("test1 in AL", () => {
   console["log"] = jest.fn(storeLog);
   const nbItems = 3,
@@ -121,10 +151,30 @@ test("test1 in AL", () => {
   const expectedPrice = getDiscount(nbItems * price) * getTax(state);
   expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
 });
+test("test2 in AL", () => {
+  console["log"] = jest.fn(storeLog);
+  const nbItems = 2,
+    price = 7001,
+    state = "AL";
+  program(nbItems, price, state);
+  expect(console.log).toBeCalled();
+  const expectedPrice = getDiscount(nbItems * price) * getTax(state);
+  expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
+});
 test("test1 in NV", () => {
   console["log"] = jest.fn(storeLog);
   const nbItems = 6,
     price = 12.75,
+    state = "NV";
+  program(nbItems, price, state);
+  expect(console.log).toBeCalled();
+  const expectedPrice = getDiscount(nbItems * price) * getTax(state);
+  expect(Number(outputData).toFixed(2)).toBe(expectedPrice.toFixed(2));
+});
+test("test2 in NV", () => {
+  console["log"] = jest.fn(storeLog);
+  const nbItems = 76,
+    price = 566.3,
     state = "NV";
   program(nbItems, price, state);
   expect(console.log).toBeCalled();
